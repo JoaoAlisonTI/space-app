@@ -1,4 +1,5 @@
 import { styled } from "styled-components"
+import Input from "../Input"
 
 const HeaderEstilizado = styled.header`
     padding: 60px 0;
@@ -13,7 +14,7 @@ const Header = () => {
   return (
     <HeaderEstilizado>
       <img src="/imagens/logo.png" alt="" />
-      
+      <Input />
     </HeaderEstilizado>
   )
 }
