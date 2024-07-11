@@ -10,6 +10,7 @@ const FigureEstilizada = styled.figure`
     margin: 0;
     border-radius: 20px;
     max-width: 100%;
+    background-size: cover;
 `
 
 const TituloEstilizado = styled.h1`

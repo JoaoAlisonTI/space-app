@@ -37,7 +37,8 @@ const Rodape = styled.footer`
 `
 
 const Imagem = ({ foto, expandida = false }) => {
-    return (<Figure $expandida={expandida} id={`foto-${foto.id}`}>
+    return (
+      <Figure $expandida={expandida} id={`foto-${foto.id}`}>
         <img src={foto.path} alt={foto.alt} />
         <figcaption>
             <h3>{foto.titulo}</h3>
@@ -51,7 +52,8 @@ const Imagem = ({ foto, expandida = false }) => {
                 </BotaoIcone>}
             </Rodape>
         </figcaption>
-    </Figure>)
+    </Figure>
+  )
 }
 
 export default Imagem
